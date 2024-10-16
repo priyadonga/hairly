@@ -1,0 +1,2126 @@
+@media(min-width:1900px) {
+    .modal-btn {
+        display: none;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    /* blog-page----------------------------------------- */
+
+    .blog-page .img .blog-img {
+        width: 390px;
+    }
+
+    .blog-page .blog-part {
+        padding: 0;
+    }
+
+    .blog-page .blog-part.blog-part2 {
+        padding-left: 1rem;
+    }
+
+    /* contact----------------------------------------- */
+
+    .call img {
+        width: 550px !important;
+        height: 375px;
+    }
+}
+
+@media(min-width:1400px) and (max-width:1899px) {
+
+    .modal-btn {
+        display: none;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    /* contact----------------------------------------- */
+
+    .call img {
+        width: 550px !important;
+        height: 375px;
+    }
+
+}
+
+@media(min-width:1200px) and (max-width:1399px) {
+    .header {
+        padding: 0 20px !important;
+    }
+
+    .home .nav-link {
+        margin: 0 1.5rem !important;
+    }
+
+    .home .dropdown .btn {
+        margin: 0 1.5rem !important;
+    }
+
+    .modal-btn {
+        display: none;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .fix-btn .btn {
+        padding: 6px 10px !important;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page img {
+        height: 567px;
+    }
+
+    /* about----------------------------------------- */
+
+    .team br {
+        display: none;
+    }
+
+    /* blog----------------------------------------- */
+
+    .reply {
+        padding-bottom: 1rem !important;
+    }
+
+    .blog .row {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .blog .col-3 {
+        padding-left: 0 !important;
+    }
+
+    .blog-sec {
+        padding: 0 !important;
+    }
+
+    .blog-page .part {
+        padding: 0 .5rem !important;
+    }
+
+    .error {
+        padding: 3.1rem !important;
+    }
+
+    /* gallery-page----------------------------------------- */
+
+    .gallery-page {
+        margin: 0 !important;
+    }
+
+}
+
+@media(min-width:1025px) and (max-width:1199px) {
+
+    .header {
+        padding: 0 20px !important;
+    }
+
+    .modal-btn {
+        display: none;
+    }
+
+    /* hours */
+
+    .hours .hours-text {
+        left: -1% !important;
+    }
+
+    /* client */
+
+    .video-area {
+        transform: translateY(1rem) !important;
+        margin-bottom: -22rem !important;
+    }
+
+    /* cut */
+
+    .cut {
+        margin-top: 18rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .cut .container {
+        padding-bottom: 0 !important;
+    }
+
+    /* blog */
+
+    .blog br {
+        display: none;
+    }
+
+    .blog h3 {
+        padding-top: 0 !important;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .fix-btn .btn {
+        padding: 6px 10px !important;
+    }
+
+    /* gallery-page----------------------------------------- */
+
+    .gallery-page {
+        margin: 0 !important;
+    }
+
+    .gallery-page .col-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        letter-spacing: 0 !important;
+        margin: .6rem 0 1rem !important;
+    }
+
+    .team-page h3 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+
+    .team-page br {
+        display: none;
+    }
+
+    .team-info {
+        margin: 0 3rem
+    }
+
+    .team-page img {
+        height: 567px;
+    }
+
+    /* coming-page----------------------------------------- */
+
+    #timer {
+
+        div {
+            margin: 0 3rem !important;
+        }
+    }
+
+    /* about----------------------------------------- */
+
+    .team {
+        margin-top: 13rem !important;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    /* blog----------------------------------------- */
+
+    .reply {
+        padding-bottom: 1rem !important;
+    }
+
+    .blog-inner br {
+        display: none;
+    }
+
+    .blog-sec {
+        padding-right: 1rem !important;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1024px) {
+    .header {
+        padding: 0 !important;
+    }
+
+    .header.fixed .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar .col-9 {
+        display: none !important;
+    }
+
+    .navbar .col-2 .btn-book {
+        display: none !important;
+    }
+
+    /* hours */
+
+    .hours {
+        padding: 0 !important;
+    }
+
+    .hours .row {
+        justify-content: center;
+    }
+
+    .hours .hours-text {
+        left: 0 !important;
+    }
+
+    .hours .col-4 .hours-text {
+        width: 100%;
+    }
+
+    .hours .col-8 {
+        width: 100%;
+        border: none !important;
+        margin-top: 1rem;
+    }
+
+    .hours .col-8 .col-4 {
+        justify-content: center !important;
+    }
+
+    /* price */
+
+    .about.price {
+        padding: 0 !important;
+    }
+
+    .about.price h2 {
+        margin: 0 !important;
+    }
+
+    .price .col-6 {
+        width: 100%;
+        padding: 0 14px !important;
+    }
+
+    .price .row {
+        margin-top: 2rem;
+    }
+
+    /* client */
+
+    .video-area {
+        transform: translateY(1rem) !important;
+        margin-bottom: -21rem !important;
+    }
+
+    /* cut */
+
+    .cut {
+        margin-top: 16rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .cut .container {
+        padding-bottom: 0 !important;
+    }
+
+    /* blog */
+
+    .blog br {
+        display: none;
+    }
+
+    .blog h3 {
+        padding-top: 0 !important;
+    }
+
+    .blog-page .blog-part1 {
+        padding-right: 1.3rem !important;
+    }
+
+    .blog-page .blog-part2 {
+        padding-left: 1.3rem !important;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .fix-btn .btn {
+        padding: 6px 10px !important;
+    }
+
+    /* gallery-page----------------------------------------- */
+
+    .gallery-page {
+        margin: 0 !important;
+    }
+
+    .gallery-page .col-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        letter-spacing: 0 !important;
+        margin: .6rem 0 1rem !important;
+    }
+
+    .team-page h3 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+
+    .team-page .row {
+        margin-bottom: 1px !important;
+    }
+
+    .team-info {
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .team-info .d-flex {
+        justify-content: center !important;
+    }
+
+    .team-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page----------------------------------------- */
+
+    #timer {
+        div {
+            margin: 0 3rem !important;
+        }
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .questions .col-12 {
+        padding-top: 0 !important;
+    }
+
+    /* about----------------------------------------- */
+
+    .team {
+        margin-top: 11rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .team .col-4 {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    /* blog----------------------------------------- */
+
+    .blog .row {
+        padding-top: 0rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .blog .blog-sec {
+        width: 100% !important;
+        margin-bottom: 3rem;
+    }
+
+    .blog .col-4 {
+        width: 50%;
+    }
+
+    .blog br {
+        display: none;
+    }
+
+    .blog-inner br {
+        display: none;
+    }
+
+    .reply {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* contact----------------------------------------- */
+
+    .contact {
+        padding-top: 0 !important;
+    }
+
+    .call .col-7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call .col-5 {
+        margin-top: 3rem;
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+
+    /* search----------------------------------------- */
+
+    .section .row {
+        padding: 1rem 0 !important;
+    }
+
+    .section .col-4 {
+        width: 50%;
+        margin-top: 2rem !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+    .header {
+        padding: 0 !important;
+    }
+
+    .header.fixed .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar .col-9 {
+        display: none !important;
+    }
+
+    .navbar .col-2 .btn-book {
+        display: none !important;
+    }
+
+    /* hours */
+
+    .hours {
+        padding: 0 !important;
+    }
+
+    .hours .row {
+        justify-content: center;
+    }
+
+    .hours .col-4 .hours-text {
+        width: 100%;
+    }
+
+    .hours .hours-text {
+        display: contents;
+    }
+
+    .hours .col-8 {
+        width: 100%;
+        border: none !important;
+        margin-top: 1rem;
+    }
+
+    .hours .col-8 .col-4 {
+        justify-content: center !important;
+    }
+
+    /* price */
+
+    .price .medium-bottom {
+        margin-bottom: 3rem;
+    }
+
+    .about.price {
+        padding: 0 !important;
+    }
+
+    .about.price h2 {
+        margin: 0 !important;
+    }
+
+    .price .col-6 {
+        width: 100%;
+        padding: 0 14px !important;
+    }
+
+    /* client */
+
+    .video-area {
+        transform: translateY(1rem) !important;
+        margin-bottom: -17rem !important;
+    }
+
+    /* cut */
+
+    .cut {
+        margin-top: 12rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* questions  */
+
+    .questions {
+        padding-bottom: 1rem !important;
+    }
+
+    /* blog  */
+
+    .blog br {
+        display: none;
+    }
+
+    .blog h3 {
+        padding-top: 0 !important;
+    }
+
+    .blog-page .part {
+        padding: 0 .5rem !important;
+    }
+
+    .blog-page .blog-part1 {
+        padding-right: 1.3rem !important;
+    }
+
+    .blog-page .blog-part2 {
+        padding-left: 1.3rem !important;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .fix-btn .btn {
+        right: 2% !important;
+        padding: 6px 10px !important;
+    }
+
+    /* gallery-page----------------------------------------- */
+
+    .gallery-page {
+        margin: 0 !important;
+    }
+
+    .gallery-page .row {
+        justify-content: center;
+    }
+
+    .gallery-page .col-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        letter-spacing: 0 !important;
+        margin: .6rem 0 1rem !important;
+    }
+
+    .team-page h3 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+
+    .team-page .row {
+        margin-bottom: 1px !important;
+    }
+
+    .team-info {
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .team-info .d-flex {
+        justify-content: center !important;
+    }
+
+    .team-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page & error-page----------------------------------------- */
+
+    .fix-part h2 {
+        font-size: 80px !important;
+        line-height: 90px !important;
+    }
+
+    /* coming-page----------------------------------------- */
+
+    #timer {
+        div {
+            margin: 0 2rem !important;
+            min-width: 75px !important;
+        }
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .questions .col-12 {
+        padding-top: 0 !important;
+    }
+
+    /* about----------------------------------------- */
+
+    .team {
+        margin-top: 7rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .team .col-4 {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    /* blog----------------------------------------- */
+
+    .blog {
+        padding-top: 2rem !important;
+    }
+
+    .blog .row {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .blog .blog-sec {
+        width: 100% !important;
+        margin-bottom: 3rem;
+    }
+
+    .blog .col-4 {
+        width: 50%;
+    }
+
+    .blog br {
+        display: none;
+    }
+
+    .blog-inner br {
+        display: none;
+    }
+
+    .blog-inner h2 {
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+
+    .reply {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* contact----------------------------------------- */
+
+    .contact {
+        padding-top: 0 !important;
+    }
+
+    .call .col-7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call .col-5 {
+        margin-top: 3rem;
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+
+    /* search----------------------------------------- */
+
+    .section .row {
+        padding: 1rem 0 !important;
+    }
+
+    .section .col-4 {
+        width: 50%;
+        margin-top: 2rem !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media(min-width:576px) and (max-width:767px) {
+
+    .header {
+        padding: 0 !important;
+    }
+
+    .header.fixed .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar .col-9 {
+        display: none !important;
+    }
+
+    .navbar .col-2 .btn-book {
+        display: none !important;
+    }
+
+    /* hours */
+
+    .hours {
+        padding: 0 !important;
+    }
+
+    .hours .col-4 {
+        width: 100%;
+        justify-content: center !important;
+        margin: .5rem 0;
+    }
+
+    .hours .col-8 {
+        width: 100%;
+        border: none !important;
+        justify-content: center !important;
+    }
+
+    .hours .hours-text {
+        left: 0 !important;
+        text-align: center !important;
+    }
+
+    /* price */
+
+    .price .medium-bottom {
+        margin-bottom: 3rem;
+    }
+
+    .about.price {
+        padding: 0 !important;
+    }
+
+    .about.price h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        letter-spacing: 1px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .about.price h3 {
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+
+    .price .col-6 {
+        width: 100%;
+        padding: 0 14px !important;
+    }
+
+    /* img */
+
+    .img-inner h2 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+
+    .img-inner p {
+        margin-bottom: 2rem !important;
+    }
+
+    .img-section {
+        height: 400px !important;
+    }
+
+    .img-section2 {
+        height: 400px !important;
+    }
+
+    /* client */
+
+    .client h3 {
+        font-size: 17px !important;
+        line-height: 25px !important;
+    }
+
+    .video-area {
+        transform: translateY(1rem) !important;
+        margin-bottom: -13rem !important;
+    }
+
+    /* cut */
+
+    .cut {
+        margin-top: 7rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .cut .col-4 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* questions  */
+
+    .questions {
+        padding-bottom: 1rem !important;
+    }
+
+    /* blog */
+
+    .blog br {
+        display: none;
+    }
+
+    .blog h3 {
+        padding-top: 0 !important;
+    }
+
+    .blog-page .img .blog-img img {
+        height: 150px !important;
+    }
+
+    .blog-page .blog-part1 {
+        padding-right: 1rem !important;
+    }
+
+    .blog-page .blog-part2 {
+        padding-left: 1rem !important;
+    }
+
+    /* footer */
+
+    .footer br {
+        display: none;
+    }
+
+    .footer .hide-footer {
+        display: none !important;
+    }
+
+    .footer .col-6 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer form button {
+        width: 100% !important;
+        margin-bottom: 40px !important;
+    }
+
+    .footer button {
+        padding: 0;
+    }
+
+    .footer .fix-btn .btn {
+        padding: 6px 10px !important;
+        right: 2% !important;
+    }
+
+    /* inner-page----------------------------------------- */
+
+    .top {
+        min-height: 200px !important;
+    }
+
+    .top h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    /* gallery-page----------------------------------------- */
+
+    .gallery-page {
+        margin: 0 !important;
+    }
+
+    .gallery-page .row {
+        justify-content: center;
+    }
+
+    .gallery-page .col-4 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        letter-spacing: 0 !important;
+        margin: .6rem 0 1rem !important;
+    }
+
+    .team-page h3 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+
+    .team-page .row {
+        margin-bottom: 1px !important;
+    }
+
+    .team-info {
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .team-info .d-flex {
+        justify-content: center !important;
+    }
+
+    .team-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page & error-page----------------------------------------- */
+
+    .coming-bg,
+    .error-bg {
+        height: 100% !important;
+        background-size: cover;
+        padding: 80px 0px;
+    }
+
+    #timer {
+        margin: 2rem 0 !important;
+
+        div {
+
+            font-size: 24px !important;
+            line-height: 34px !important;
+            margin: 0 !important;
+            min-width: 100px !important;
+
+            span {
+                font-size: 12px !important;
+                line-height: 22px !important;
+            }
+        }
+    }
+
+    .fix-part h2 {
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+
+    .fix-part br {
+        display: none;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .questions .col-12 {
+        padding-top: 0 !important;
+    }
+
+    /* about----------------------------------------- */
+
+    .team {
+        margin-top: 2rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .team .col-4 {
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    /* blog----------------------------------------- */
+
+    .blog .row {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .blog .blog-sec {
+        width: 100% !important;
+        margin-bottom: 3rem;
+        padding-right: 14px !important;
+    }
+
+    .blog .col-4 {
+        width: 50%;
+    }
+
+    .blog h3 {
+        font-size: 26px !important;
+        line-height: 36px !important;
+    }
+
+    .blog br {
+        display: none;
+    }
+
+    .blog-inner br {
+        display: none;
+    }
+
+    .blog-inner .col-4 {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .blog-inner .big-img {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .blog-inner h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .reply {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .reply .col-4 {
+        width: 100%;
+        padding: 0 !important;
+        margin-top: 1rem;
+    }
+
+    .reply h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .reply .btn {
+        margin-top: 1.5rem !important;
+    }
+
+    /* contact----------------------------------------- */
+
+    .contact {
+        padding-top: 0 !important;
+    }
+
+    .contact .container {
+        margin: 0 !important;
+    }
+
+    .contact .col-6 {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact textarea {
+        margin-top: 0 !important;
+    }
+
+    .call {
+        padding: 0 !important;
+    }
+
+    .call .col-7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call .col-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .call .col-5 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    /* search----------------------------------------- */
+
+    .section {
+        padding: 1rem 0 !important;
+    }
+
+    .section .row {
+        padding: .5rem 0 !important;
+    }
+
+    .section .col-4 {
+        width: 50%;
+        margin-top: 2rem !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media(min-width:320px) and (max-width:575px) {
+
+    h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .header {
+        padding: 0 !important;
+    }
+
+    .header.fixed .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar .col-9 {
+        display: none !important;
+    }
+
+    .navbar .col-2 .btn-book {
+        display: none !important;
+    }
+
+    /* hours */
+
+    .hours {
+        padding: 0 !important;
+    }
+
+    .hours .col-4 {
+        width: 100%;
+        justify-content: center !important;
+        margin: .5rem 0;
+    }
+
+    .hours .col-8 {
+        width: 100%;
+        border: none !important;
+        justify-content: center !important;
+    }
+
+    .hours .hours-text {
+        left: 0 !important;
+        text-align: center !important;
+    }
+
+    /* price */
+
+    .price .medium-bottom {
+        margin-bottom: 3rem;
+    }
+
+    .price {
+        padding: 1rem 0 !important;
+    }
+
+    .about.price {
+        padding: 0 !important;
+    }
+
+    .price h2 {
+        margin-bottom: 2px !important;
+    }
+
+    .about.price h3 {
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+
+    .price .col-6 {
+        width: 100%;
+        padding: 0 14px !important;
+    }
+
+    /* brand */
+
+    .brand .container {
+        padding: 0 !important;
+    }
+
+
+    /* img */
+
+    .img-inner h2 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+
+    .img-inner p {
+        margin-bottom: 2rem !important;
+    }
+
+    .img-section {
+        height: 300px !important;
+    }
+
+    .img-section2 {
+        height: 300px !important;
+    }
+
+    /* client */
+
+    .client br {
+        display: none;
+    }
+
+    .client-area {
+        padding-top: 2rem !important;
+    }
+
+    .client h3 {
+        font-size: 17px !important;
+        line-height: 25px !important;
+    }
+
+    .video-area {
+        transform: translateY(1rem) !important;
+        margin-bottom: -8rem !important;
+    }
+
+    /* cut */
+
+    .cut {
+        margin-top: 2rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .cut .row {
+        padding: 0 .7rem !important;
+    }
+
+    .cut .col-4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* questions  */
+
+    .questions {
+        padding-bottom: 1rem !important;
+    }
+
+    /* blog */
+
+    .blog br {
+        display: none;
+    }
+
+    .blog h3 {
+        padding-top: 0 !important;
+    }
+
+    .blog-page .part {
+        margin-top: 1rem;
+    }
+
+    /* footer */
+
+    .footer br {
+        display: none;
+    }
+
+    .footer .hide-footer {
+        display: none !important;
+    }
+
+    .footer .col-6 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer form button {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .footer button {
+        padding: 0;
+    }
+
+    .footer .fix-btn .btn {
+        padding: 6px 10px !important;
+        right: 4% !important;
+    }
+
+    /* inner-page----------------------------------------- */
+
+    .top {
+        min-height: 200px !important;
+    }
+
+    .top h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    /* gallery-page----------------------------------------- */
+
+    .gallery-page {
+        margin: 0 !important;
+    }
+
+    .gallery-page .row {
+        justify-content: center;
+    }
+
+    .gallery-page .col-4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        letter-spacing: 0 !important;
+        margin: .6rem 0 1rem !important;
+    }
+
+    .team-page h3 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+
+    .team-page .row {
+        margin-bottom: 1px !important;
+    }
+
+    .team-info br {
+        display: none;
+    }
+
+    .team-info {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .team-info .d-flex {
+        justify-content: center !important;
+    }
+
+    .team-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page & error-page----------------------------------------- */
+
+    .coming-bg,
+    .error-bg {
+        height: 100% !important;
+        background-size: cover;
+        padding: 80px 0px;
+    }
+
+    #timer {
+        margin: 2rem 0 !important;
+
+        div {
+
+            font-size: 24px !important;
+            line-height: 34px !important;
+            margin: 0 !important;
+            min-width: 65px !important;
+
+            span {
+                font-size: 12px !important;
+                line-height: 22px !important;
+            }
+        }
+    }
+
+    .fix-part h2 {
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+
+    .fix-part br {
+        display: none;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .questions .col-12 {
+        padding-top: 0 !important;
+    }
+
+    .questions .accordion-item button {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+
+    /* about----------------------------------------- */
+
+    .team {
+        margin-top: -2rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .team .col-4 {
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    /* blog----------------------------------------- */
+
+    .blog {
+        padding: 0 !important;
+    }
+
+    .blog br {
+        display: none;
+    }
+
+    .blog .col-3 {
+        padding-right: 0 !important;
+    }
+
+    .blog .col-4 {
+        width: 100%;
+    }
+
+    .blog .blog-sec {
+        padding-right: 12px !important;
+    }
+
+    .blog-top .container {
+        padding: 14px !important;
+    }
+
+    .blog-inner br {
+        display: none;
+    }
+
+    .blog-inner .col-4 {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .blog-inner .big-img {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .blog-inner h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .blog-inner .part {
+        font-size: 9px !important;
+    }
+
+    .blog-page .row {
+        padding-top: 0 !important;
+    }
+
+    .reply {
+        padding-bottom: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .reply .col-4 {
+        width: 100%;
+        padding: 0 !important;
+        margin-top: 1rem;
+    }
+
+    .reply h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .reply .btn {
+        margin-top: 1.5rem !important;
+    }
+
+    .next p {
+        font-size: 13px !important;
+        line-height: 23px !important;
+    }
+
+    /* contact----------------------------------------- */
+
+    .contact {
+        padding-top: 0 !important;
+    }
+
+    .contact .container {
+        margin: 0 !important;
+    }
+
+    .contact .col-6 {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact textarea {
+        margin-top: 0 !important;
+    }
+
+    .call {
+        padding: 0 !important;
+    }
+
+    .call .container {
+        margin: 0 !important;
+    }
+
+    .call .col-7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call .col-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .call .col-5 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    /* search----------------------------------------- */
+
+    .section {
+        padding: 0 !important;
+    }
+
+    .section .row {
+        padding: .5rem 0 !important;
+    }
+
+    .section .col-4 {
+        width: 100%;
+        margin-top: 2rem !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:319px) {
+
+    h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .header {
+        padding: 0 !important;
+    }
+
+    .header.fixed .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .navbar .col-9 {
+        display: none !important;
+    }
+
+    .navbar .col-2 .btn-book {
+        display: none !important;
+    }
+
+    /* hours */
+
+    .hours {
+        padding: 0 !important;
+    }
+
+    .hours .col-4 {
+        width: 100%;
+        justify-content: center !important;
+        margin: .5rem 0;
+    }
+
+    .hours .col-8 {
+        width: 100%;
+        border: none !important;
+        justify-content: center !important;
+    }
+
+    .hours .hours-text {
+        left: 0 !important;
+        text-align: center !important;
+    }
+
+    /* price */
+
+    .price .medium-bottom {
+        margin-bottom: 3rem;
+    }
+
+    .price {
+        padding: 1rem 0 !important;
+    }
+
+    .about.price {
+        padding: 0 !important;
+    }
+
+    .price h2 {
+        margin-bottom: 2px !important;
+    }
+
+    .about.price h3 {
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+
+    .price .col-6 {
+        width: 100%;
+        padding: 0 14px !important;
+    }
+
+    /* brand */
+
+    .brand .container {
+        padding: 0 !important;
+    }
+
+
+    /* img */
+
+    .img-inner h2 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+
+    .img-inner p {
+        margin-bottom: 2rem !important;
+    }
+
+    .img-section {
+        height: 300px !important;
+    }
+
+    .img-section2 {
+        height: 300px !important;
+    }
+
+    /* client */
+
+    .client br {
+        display: none;
+    }
+
+    .client-area {
+        padding-top: 2rem !important;
+    }
+
+    .client h3 {
+        font-size: 17px !important;
+        line-height: 25px !important;
+    }
+
+    .video-area {
+        transform: translateY(1rem) !important;
+        margin-bottom: -8rem !important;
+    }
+
+    /* cut */
+
+    .cut {
+        margin-top: 2rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .cut .row {
+        padding: 0 .7rem !important;
+    }
+
+    .cut .col-4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* questions  */
+
+    .questions {
+        padding-bottom: 1rem !important;
+    }
+
+    /* blog */
+
+    .blog br {
+        display: none;
+    }
+
+    .blog h3 {
+        padding-top: 0 !important;
+    }
+
+    .blog-page .part {
+        margin-top: 1rem;
+    }
+
+    /* footer */
+
+    .footer br {
+        display: none;
+    }
+
+    .footer .hide-footer {
+        display: none !important;
+    }
+
+    .footer .col-6 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer form button {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .footer button {
+        padding: 0;
+    }
+
+    .footer .fix-btn .btn {
+        padding: 6px 10px !important;
+        right: 4% !important;
+    }
+
+    /* inner-page----------------------------------------- */
+
+    .top {
+        min-height: 200px !important;
+    }
+
+    .top h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    /* gallery-page----------------------------------------- */
+
+    .gallery-page {
+        margin: 0 !important;
+    }
+
+    .gallery-page .row {
+        justify-content: center;
+    }
+
+    .gallery-page .col-4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        letter-spacing: 0 !important;
+        margin: .6rem 0 1rem !important;
+    }
+
+    .team-page h3 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+
+    .team-page .row {
+        margin-bottom: 1px !important;
+    }
+
+    .team-info br {
+        display: none;
+    }
+
+    .team-info {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .team-info .d-flex {
+        justify-content: center !important;
+    }
+
+    .team-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page & error-page----------------------------------------- */
+
+    .coming-bg,
+    .error-bg {
+        height: 100% !important;
+        background-size: cover;
+        padding: 80px 0px;
+    }
+
+    #timer {
+        margin: 2rem 0 !important;
+
+        div {
+
+            font-size: 24px !important;
+            line-height: 34px !important;
+            margin: 0 !important;
+            min-width: 65px !important;
+
+            span {
+                font-size: 12px !important;
+                line-height: 22px !important;
+            }
+        }
+    }
+
+    .fix-part h2 {
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+
+    .fix-part br {
+        display: none;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .questions .col-12 {
+        padding-top: 0 !important;
+    }
+
+    .questions .accordion-item button {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    /* about----------------------------------------- */
+
+    .team {
+        margin-top: -2rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .team .col-4 {
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    /* blog----------------------------------------- */
+
+    .blog {
+        padding: 0 !important;
+    }
+
+    .blog br {
+        display: none;
+    }
+
+    .blog .col-3 {
+        padding-right: 0 !important;
+    }
+
+    .blog .col-4 {
+        width: 100%;
+    }
+
+    .blog .blog-sec {
+        padding-right: 12px !important;
+    }
+
+    .blog-top .container {
+        padding: 14px !important;
+    }
+
+    .blog-inner br {
+        display: none;
+    }
+
+    .blog-inner .col-4 {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .blog-inner .big-img {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .blog-inner h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .blog-inner .part {
+        font-size: 9px !important;
+    }
+
+    .blog-page .row {
+        padding-top: 0 !important;
+    }
+
+    .reply {
+        padding-bottom: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .reply .col-4 {
+        width: 100%;
+        padding: 0 !important;
+        margin-top: 1rem;
+    }
+
+    .reply h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .reply .btn {
+        margin-top: 1.5rem !important;
+    }
+
+    .next p {
+        font-size: 13px !important;
+        line-height: 23px !important;
+    }
+
+    /* contact----------------------------------------- */
+
+    .contact {
+        padding-top: 0 !important;
+    }
+
+    .contact .container {
+        margin: 0 !important;
+    }
+
+    .contact .col-6 {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact textarea {
+        margin-top: 0 !important;
+    }
+
+    .call {
+        padding: 0 !important;
+    }
+
+    .call .container {
+        margin: 0 !important;
+    }
+
+    .call .col-7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .call .col-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .call .col-5 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    /* search----------------------------------------- */
+
+    .section {
+        padding: 0 !important;
+    }
+
+    .section .row {
+        padding: .5rem 0 !important;
+    }
+
+    .section .col-4 {
+        width: 100%;
+        margin-top: 2rem !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming soon - Hairly</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/faviconn.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/docs.css">
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loader"></div>
+
+    <!-- header -->
+    <section class="sticky header">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <div class="col-1 main-logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-1 sticky-logo">
+                    <a href="index.html">
+                        <img src="img/footer-logo.svg " alt="">
+                    </a>
+                </div>
+                <div class="col-9 d-grid justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase fw-semibold">
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <div class="dropdown">
+                                <a class="btn p-0 border-0 fw-semibold text-yellow" role="button">
+                                    Pages<i class="bi bi-chevron-down ms-2"></i>
+                                </a>
+                                <ul class="dropdown-menu py-0 rounded-0">
+                                    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                                    <li><a class="dropdown-item bg-black text-white" href="coming.html">Coming
+                                            soon</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                    <li><a class="dropdown-item" href="price.html">Pricing tables</a></li>
+                                    <li><a class="dropdown-item" href="error.html">404 error</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <a href="contact.html"
+                        class="btn btn-book text-uppercase fw-semibold border-0 text-decoration-underline">book
+                        now</a>
+
+                    <button class="sticky btn modal-btn border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-list fs-2"></i>
+                    </button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn border-0 p-0" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        <i class="icon bi bi-search ps-4 fs-6"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header border-0">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-grid align-items-center">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="d-flex border-0 border-1 border-bottom w-50">
+                                            <input type="text" placeholder="Search ..."
+                                                class="text-white form-control border-0 rounded-0">
+                                            <a href="search.html" class="icon px-3"><i
+                                                    class="bi bi-search text-white fs-6"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- offcanvas -->
+
+    <section class="offcanvas offcanvas-end fw-semibold text-uppercase" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a class="nav-link active me-5" aria-current="page" href="index.html">Home</a>
+            <!-- dropdown start-->
+            <div class="dropdown">
+                <span>Pages</span>
+                <a class="btn border-0 p-0 my-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-chevron-down ms-5"></i>
+                </a>
+                <ul class="dropdown-menu border-0 py-0" style="transform: translate(-37rem, 52px) !important;">
+                    <li><a class="dropdown-item fw-semibold" href="gallery.html">Gallery</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="team.html">Our team</a></li>
+                    <li><a class="dropdown-item fw-semibold text-yellow" href="coming.html">Coming Soon</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="faq.html">Faq</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="price.html">Pricing tables</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="error.html">404 error</a></li>
+                </ul>
+            </div>
+            <!-- dropdown end -->
+            <a class="nav-link active me-5" aria-current="page" href="about.html">About</a>
+            <a class="nav-link active me-5 my-4" aria-current="page" href="blog.html">Blog</a>
+            <a class="nav-link active me-5" aria-current="page" href="contact.html">Contact</a>
+        </div>
+    </section>
+
+    <!-- main -->
+
+    <section class="coming-bg" style="overflow-x: hidden;">
+        <div class="container">
+            <div class="fix-part text-light">
+                <h2 class="text-uppercase fw-bold m-0">
+                    coming soon
+                </h2>
+                <div id="timer"></div>
+                <a href="index.html" class="btn text-capitalize rounded-0 border-0">Home Page</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- all -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom -->
+    <script src="js/custom.js"></script>
+
+    <script>
+
+        // timer
+
+        function updateTimer() {
+            future = Date.parse("august 28, 2024 12:00:00");
+            now = new Date();
+            diff = future - now;
+
+            days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            hours = Math.floor(diff / (1000 * 60 * 60));
+            mins = Math.floor(diff / (1000 * 60));
+            secs = Math.floor(diff / 1000);
+
+            d = days;
+            h = hours - days * 24;
+            m = mins - hours * 60;
+            s = secs - mins * 60;
+
+            document.getElementById("timer")
+                .innerHTML =
+                '<div>' + d + '<span>Days</span></div>' +
+                '<div>' + h + '<span>Hours</span></div>' +
+                '<div>' + m + '<span>Minutes</span></div>' +
+                '<div>' + s + '<span>Seconds</span></div>';
+        }
+        setInterval('updateTimer()', 100);
+
+    </script>
+
+
+
+</body>
+
+</html>

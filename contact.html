@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hairly</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/faviconn.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/docs.css">
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- aos css -->
+    <link href="css/aos.css" rel="stylesheet">
+
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loader"></div>
+
+    <!-- header -->
+    <section class="sticky header">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <div class="col-1 main-logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-1 sticky-logo">
+                    <a href="index.html">
+                        <img src="img/footer-logo.svg " alt="">
+                    </a>
+                </div>
+                <div class="col-9 d-grid justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase fw-semibold">
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <div class="dropdown">
+                                <a class="btn p-0 border-0 fw-semibold" role="button">
+                                    Pages<i class="bi bi-chevron-down ms-2"></i>
+                                </a>
+                                <ul class="dropdown-menu py-0 rounded-0">
+                                    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                                    <li><a class="dropdown-item" href="coming.html">Coming soon</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                    <li><a class="dropdown-item" href="price.html">Pricing tables</a></li>
+                                    <li><a class="dropdown-item" href="error.html">404 error</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item d-flex px-1">
+                            <a aria-current="page" href="contact.html" class="text-yellow">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <a href="contact.html"
+                        class="btn btn-book text-uppercase fw-semibold border-0 text-decoration-underline">book
+                        now</a>
+
+                    <button class="sticky btn modal-btn border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-list fs-2"></i>
+                    </button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn border-0 p-0" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        <i class="icon bi bi-search ps-4 fs-6"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header border-0">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-grid align-items-center">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="d-flex border-0 border-1 border-bottom w-50">
+                                            <input type="text" placeholder="Search ..."
+                                                class="text-white form-control border-0 rounded-0">
+                                            <a href="search.html" class="icon px-3"><i
+                                                    class="bi bi-search text-white fs-6"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- offcanvas -->
+
+    <section class="offcanvas offcanvas-end fw-semibold text-uppercase" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a class="nav-link active me-5" aria-current="page" href="index.html">Home</a>
+            <!-- dropdown start-->
+            <div class="dropdown">
+                <span>Pages</span>
+                <a class="btn border-0 p-0 my-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-chevron-down ms-5"></i>
+                </a>
+                <ul class="dropdown-menu border-0 py-0" style="transform: translate(-37rem, 52px) !important;">
+                    <li><a class="dropdown-item fw-semibold" href="gallery.html">Gallery</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="team.html">Our team</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="coming.html">Coming Soon</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="faq.html">Faq</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="price.html">Pricing tables</a></li>
+                    <li><a class="dropdown-item fw-semibold" href="error.html">404 error</a></li>
+                </ul>
+            </div>
+            <!-- dropdown end -->
+            <a class="nav-link active me-5" aria-current="page" href="about.html">About</a>
+            <a class="nav-link active me-5 my-4" aria-current="page" href="blog.html">Blog</a>
+            <a class="nav-link active me-5 text-yellow" aria-current="page" href="contact.html">Contact</a>
+        </div>
+    </section>
+
+    <!-- main -->
+
+    <section class="top top-img">
+        <div class="top-text">
+            <div class="text-inner">
+                <h2 class="text-uppercase fw-bold text-yellow">Contact</h2>
+                <div class="d-flex text-white justify-content-center py-2">
+                    <a href="index.html"><i class="bi bi-house-door-fill"></i></a>
+                    <p class="m-0 py-1"><span class="mx-1">/</span>Contact</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact us -->
+
+    <section class="contact py-5 text-center">
+        <div class="container py-5 mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="fw-bold text-uppercase">contact us</h2>
+                    <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit labore et dolore</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <input class="py-3 px-4 border border-1 w-100" type="text" placeholder="Full name..."
+                                    required>
+                            </div>
+                            <div class="col-6">
+                                <input class="py-3 px-4 border border-1 w-100" type="email" placeholder="E-mail..."
+                                    required>
+                            </div>
+                        </div>
+                        <textarea class="py-3 px-4 mt-4 border border-1 w-100" placeholder="Message"
+                            required></textarea>
+                        <button type="submit" class="btn contact-btn rounded-0 text-uppercase mt-3">send
+                            message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- call -->
+
+    <section class="call py-5">
+        <div class="container py-5 my-3">
+            <div class="row">
+                <div class="col-7 d-grid align-items-center">
+                    <div class="info">
+                        <h2 class="fw-bold text-uppercase">visit us for call</h2>
+                        <p class="mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur vivid in amet</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <h3 class="fw-bold text-uppercase my-3">zurich</h3>
+                                <p class="m-0">Address: Seestrasse 21, CH</p>
+                                <p class="m-0 my-2">Email: paulhair@example.com</p>
+                                <p class="m-0">Telephone: 00 123 456 789;</p>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="fw-bold text-uppercase my-3">paris</h3>
+                                <p class="m-0">Address: Seestrasse 21, CH</p>
+                                <p class="m-0 my-2">Email: paulhair@example.com</p>
+                                <p class="m-0">Telephone: 00 123 456 789;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <img src="img/contact.jpg" alt="" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer bg-black w-100 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-grid">
+                    <div class="logo mb-5">
+                        <img src="img/footer-logo.svg" alt="">
+                    </div>
+                    <p class="m-0 d-flex align-items-end hide-footer">© 2024 - Html Theme by Code4rest</p>
+                </div>
+                <div class="col-6">
+                    <h3>Stay informed about our monthly promotions, <br> products & more.</h3>
+
+                    <form onclick="validate()">
+                        <div class="input-group w-100">
+                            <input id="email" type="email"
+                                class="text-white form-control border-bottom border-0 rounded-0">
+                        </div>
+                        <button class="btn rounded-0 border border-1 border-yellow">Subscribe</button>
+                        <div id="error" class="text-danger pt-2"></div>
+                        <div id="successful" class="text-success pt-2"></div>
+                        <p class="mt-4 text-center hide-footerr">© 2024 - Html Theme by Code4rest</p>
+                    </form>
+
+                    <div class="row hide-footer">
+                        <div class="col-6">
+                            <h3 class="fw-bold">Info</h3>
+                            <ul class="p-0 m-0">
+                                <li class="list-group-item"><a href="about.html" class="text-decoration-none">About
+                                        Us</a>
+                                </li>
+                                <li class="list-group-item"><a href="contact.html"
+                                        class="text-decoration-none">Contact</a></li>
+                                <li class="list-group-item"><a href="blog.html" class="text-decoration-none">Blog</a>
+                                </li>
+                                <li class="list-group-item "><a href="faq.html" class="text-decoration-none">FAQ</a>
+                                </li>
+                                <li class="list-group-item"><a href="index.html"
+                                        class="text-decoration-none">Service</a>
+                                </li>
+                                <li class="list-group-item"><a href="index.html"
+                                        class="text-decoration-none">History</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h3 class="fw-bold">Get In Touch</h3>
+                            <ul class="p-0 m-0">
+                                <li class="list-group-item">
+                                    <p class="m-0">198 West 21th Street, Suite <br> New York, NY 10010 </p>
+                                </li>
+                                <li class="list-group-item"><a href="index.html"
+                                        class="text-decoration-none">Info@example.com</a></li>
+                                <li class="list-group-item"><a href="index.html" class="text-decoration-none">+88
+                                        (0)
+                                        101 0000 000</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- accordion -->
+
+                    <div class="row hide-footerr">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <!-- 1 -->
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button accordion-footer collapsed justify-content-center py-1 fw-bold"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                        Info
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul class="p-0">
+                                            <li class="list-group-item mb-2"><a href="about.html"
+                                                    class="text-decoration-none">About
+                                                    Us</a>
+                                            </li>
+                                            <li class="list-group-item"><a href="contact.html"
+                                                    class="text-decoration-none">Contact</a></li>
+                                            <li class="list-group-item my-2"><a href="blog.html"
+                                                    class="text-decoration-none">Blog</a>
+                                            </li>
+                                            <li class="list-group-item "><a href="faq.html"
+                                                    class="text-decoration-none">FAQ</a>
+                                            </li>
+                                            <li class="list-group-item my-2"><a href="index.html"
+                                                    class="text-decoration-none">Service</a>
+                                            </li>
+                                            <li class="list-group-item"><a href="index.html"
+                                                    class="text-decoration-none">History</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="accordion-item border-0 rounded-0">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button accordion-footer collapsed justify-content-center py-3 fw-bold"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        Get In Touch
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul class="p-0">
+                                            <li class="list-group-item">
+                                                <p class="m-0">198 West 21th Street, Suite <br> New York, NY 10010 </p>
+                                            </li>
+                                            <li class="list-group-item my-3"><a href="index.html"
+                                                    class="text-decoration-none">Info@example.com</a></li>
+                                            <li class="list-group-item"><a href="index.html"
+                                                    class="text-decoration-none">+88
+                                                    (0)
+                                                    101 0000 000</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="fix-btn">
+            <a href="#" class="btn position-fixed rounded-0 border border-1 border-black">
+                <i class="bi bi-chevron-up"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- all -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- aos js -->
+    <script src="js/aos.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom -->
+    <script src="js/custom.js"></script>
+
+    <script>
+        function validate() {
+            event.preventDefault();
+
+            document.getElementById("error").innerHTML = "";
+            document.getElementById("successful").innerHTML = "";
+
+            var email = document.getElementById("email").value;
+            var errorElement = document.getElementById("error");
+            var successElement = document.getElementById("successful");
+
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (email === '') {
+                errorElement.innerHTML = "Please enter your email.";
+                return false;
+            }
+            else if (!emailPattern.test(email)) {
+                errorElement.innerHTML = "Please enter a valid email address.";
+                return false;
+            }
+            else {
+                successElement.innerHTML = "Thank you for subscribing!";
+                return false;
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
